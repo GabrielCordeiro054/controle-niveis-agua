@@ -26,7 +26,7 @@ def definir_cor(nivel):
     return cores[nivel - 1]
 
 
-# Funço que mostra a situação do reservatório
+# Função que mostra a situação do reservatório
 def mostrar_nivel(nivel):
     if 1 <= nivel <= 5:
         situacao = niveis[nivel - 1]
